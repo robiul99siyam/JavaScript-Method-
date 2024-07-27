@@ -82,3 +82,28 @@ let result = numbers.map((element) => {
 })
 
 console.log(result);
+erations by using an event queue, enabling the execution of code, collecting and processing events, and executing queued sub-tasks.
+
+📌 4. Prototypes and Inheritance
+JavaScript uses prototypal inheritance, where objects can inherit properties and methods from other objects. Every JavaScript object has a prototype property, which is a reference to another object from which it inherits properties and methods.
+
+📌 5. Higher-Order Functions
+These are functions that can take other functions as arguments or return them. 
+
+📌 6. Hoisting
+Hoisting is JavaScript's default behavior of moving declarations to the top of the current scope (global or local). This means variables and functions can be used before they are declared, although the initialization part of variables is not hoisted.
+
+📌 7. Modules (ES6)
+ES6 modules allow for better code organization and reuse. They enable you to export functions, objects, or primitive values from one module and import them into another, promoting modular programming practices.
+
+📌 8. Spread and Rest Operators
+The spread operator allows an iterable to expand in places where multiple arguments or elements are expected. The rest operator collects multiple elements or arguments into a single array, making functions more flexible and concise.
+
+📌 9. Destructuring
+Destructuring assignment allows for the extraction of values from arrays or properties from objects into distinct variables. It provides a convenient way to unpack values and assign them to new variables.
+
+📌 10. Currying
+Currying transforms a function with multiple arguments into a sequence of functions, each taking a single argument. 
+
+📌 11. Event Delegation
+Event delegation is a technique where a single event listener is added to a parent element to manage events for all of its child elements. This leverages event bubbling and makes it more efficient to handle events for multiple child elements.
